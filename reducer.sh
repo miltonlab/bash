@@ -21,6 +21,7 @@
 # Script para reducir el tamanio de un archivo de imagen, toma com parametros
 # el direcotorio de las imagenes originales y el directorio a donde se van a 
 # grabar las modificaciones.
+# Se requiere instalar ImageMagick para utilizar el comando 'convert'.
 
 size=800x600 	# Tamanio por defecto 
 d=$(pwd)	# Directorio por defecto
